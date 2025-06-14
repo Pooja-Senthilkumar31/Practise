@@ -55,6 +55,7 @@ public class CreateCampaignTestUsingMandatoryFieldsTest {
 		action.moveToElement(Hover).build().perform();
 		driver.findElement(By.xpath("//div[@class='dropdown-item logout']")).click();
 		driver.quit();
+		System.out.println("Modify");
 		
 
 	}
