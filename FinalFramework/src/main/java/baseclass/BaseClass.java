@@ -89,7 +89,6 @@ public class BaseClass {
 	public void afterSuite() {
 		System.out.println("Close database connection");
 		System.out.println("Modify");
-		System.out.println("Modify");
 	}
 
 }
