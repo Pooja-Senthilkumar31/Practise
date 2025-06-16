@@ -88,7 +88,7 @@ public class BaseClass {
 	@AfterSuite (groups= {"Smoke","Regression"})
 	public void afterSuite() {
 		System.out.println("Close database connection");
-		System.out.println("Modify");
+		System.out.println("Modify1");
 	}
 
 }
